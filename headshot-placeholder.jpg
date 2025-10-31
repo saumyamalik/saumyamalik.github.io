@@ -1,0 +1,11 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e9ecef"/>
+
+  <!-- Person silhouette -->
+  <circle cx="200" cy="140" r="60" fill="#adb5bd"/>
+  <ellipse cx="200" cy="300" rx="100" ry="120" fill="#adb5bd"/>
+
+  <!-- Text -->
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="20" fill="#6c757d" text-anchor="middle">Your Photo Here</text>
+</svg>
