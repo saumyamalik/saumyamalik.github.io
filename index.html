@@ -77,13 +77,6 @@
                         <a href="https://github.com/saumyamalik" title="GitHub" aria-label="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://huggingface.co/saumyamalik" title="Hugging Face" aria-label="Hugging Face" class="hf-link">
-                            <svg viewBox="0 0 95 88" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                                <path d="M47.21 70.531c-3.804 0-6.898-3.093-6.898-6.898s3.093-6.898 6.898-6.898c3.804 0 6.898 3.093 6.898 6.898s-3.093 6.898-6.898 6.898zm0-10.796c-2.154 0-3.898 1.744-3.898 3.898s1.744 3.898 3.898 3.898 3.898-1.744 3.898-3.898-1.744-3.898-3.898-3.898z"/>
-                                <path d="M69.106 44.694c0-11.89-9.664-21.554-21.554-21.554-11.89 0-21.554 9.664-21.554 21.554 0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5c0-10.236 8.318-18.554 18.554-18.554 10.236 0 18.554 8.318 18.554 18.554 0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5z"/>
-                                <path d="M29.932 35.266c-5.138 0-9.318 4.179-9.318 9.318 0 5.138 4.179 9.318 9.318 9.318s9.318-4.179 9.318-9.318c0-5.138-4.18-9.318-9.318-9.318zm0 15.636c-3.484 0-6.318-2.833-6.318-6.318s2.833-6.318 6.318-6.318 6.318 2.833 6.318 6.318-2.834 6.318-6.318 6.318zM64.488 35.266c-5.138 0-9.318 4.179-9.318 9.318 0 5.138 4.179 9.318 9.318 9.318s9.318-4.179 9.318-9.318c0-5.138-4.18-9.318-9.318-9.318zm0 15.636c-3.484 0-6.318-2.833-6.318-6.318s2.833-6.318 6.318-6.318 6.318 2.833 6.318 6.318-2.834 6.318-6.318 6.318z"/>
-                            </svg>
-                        </a>
                         <a href="cv.pdf" title="CV" aria-label="CV" class="cv-link">
                             <i class="fas fa-file-pdf"></i> CV
                         </a>
@@ -96,20 +89,16 @@
         <section id="about">
             <h2>About Me</h2>
             <p>
-                Hi some placeholder text. I am saumya!
+                Hi! I'm Saumya, a predoctoral young investigator on the AllenNLP and Olmo team at the Allen Institute for Artificial Intelligence (Ai2). Before that, I got my undergraduate degree at Princeton University in 2024, majoring in Computer Science and minoring in Linguistics and Cognitive Science. I was very fortunate to work with Professor Danqi Chen. 
             </p>
-        </section>
-
-        <section id="interests">
-            <h2>Research Interests</h2>
-            <!-- <ul class="interests-list">
-                <li>Research Interest Area 1</li>
-                <li>Research Interest Area 2</li>
-                <li>Research Interest Area 3</li>
-                <li>Research Interest Area 4</li>
-            </ul> -->
             <p>
-                I am interested in research.
+                I do research in NLP, and I'm broadly interested in improving our understanding of the interplay and sequencing of training stages, data decisions, and evaluation signals to build language models that are more capable but also more controllable and aligned for people.
+            </p>
+            <p>
+                Check out some of my work on open language modeling, reward models, and instruction following below or on my <a href="https://scholar.google.com/citations?user=wDyrxKsAAAAJ&hl=en">Google Scholar</a>!
+            </p>
+            <p>
+                <strong>I am applying to PhD programs in the 2025-2026 cycle!</strong>
             </p>
         </section>
 
@@ -119,10 +108,37 @@
 
             <!-- You can add a filter or year-based organization here -->
             <div class="publications-list">
-
+                
+                <div class="publication">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-image">
+                        <a href="https://allenai.org/papers/olmo3">
+                            <img src="publications/olmo3.png" alt="Olmo 3">
+                        </a>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Olmo 3 Technical Report</h3>
+                        <p class="pub-authors">
+                            Team Olmo (incl. <strong>Saumya Malik</strong>, Core Contributor)
+                        </p>
+                        <!-- <p class="pub-venue">
+                            <em>Preprint Under Review</em>, 2025
+                        </p> -->
+                        <div class="pub-links">
+                            <a href="https://allenai.org/papers/olmo3" class="pub-link">PDF</a>
+                            <a href="https://huggingface.co/collections/allenai/olmo-3" class="pub-link">Artifact Collection</a>
+                        </div>
+                    </div>
+                </div>
+ 
                 <!-- Publication Entry Template -->
                 <div class="publication">
                     <div class="pub-year">2025</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2506.01937">
+                            <img src="publications/rewardbench2.png" alt="RewardBench 2">
+                        </a>
+                    </div>
                     <div class="pub-content">
                         <h3 class="pub-title">RewardBench 2: Advancing Reward Model Evaluation</h3>
                         <p class="pub-authors">
@@ -143,13 +159,18 @@
 
                 <div class="publication">
                     <div class="pub-year">2025</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2507.02833">
+                            <img src="publications/ifbench.png" alt="IFBench">
+                        </a>
+                    </div>
                     <div class="pub-content">
                         <h3 class="pub-title">Generalizing Verifiable Instruction Following</h3>
                         <p class="pub-authors">
                             Valentina Pyatkin, <strong>Saumya Malik</strong>, Victoria Graf, Hamish Ivison, Shengyi Huang, Pradeep Dasigi, Nathan Lambert, Hannaneh Hajishirzi
                         </p>
                         <p class="pub-venue">
-                            <em>NeurIPS Datasets & Benchmarks</em>, 2025
+                            <em>NeurIPS Datasets & Benchmarks</em>, 2025. Also one of 10 benchmarks adopted in the <a href="https://artificialanalysis.ai/evaluations/ifbench">Artificial Analysis Intelligence Index</a>!
                         </p>
                         <div class="pub-links">
                             <a href="https://arxiv.org/pdf/2507.02833" class="pub-link">PDF</a>
@@ -160,21 +181,96 @@
                 </div>
 
                 <div class="publication">
-                    <div class="pub-year">2024</div>
+                    <div class="pub-year">2025</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2411.15124">
+                            <img src="publications/tulu3.png" alt="Tulu 3">
+                        </a>
+                    </div>
                     <div class="pub-content">
-                        <h3 class="pub-title">Previous Year Publication Title</h3>
+                        <h3 class="pub-title">Tulu 3: Pushing Frontiers in Open Language Model Post-Training</h3>
                         <p class="pub-authors">
-                            <strong>Your Name</strong>, Co-Author 1
+                            Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish Ivison, Faeze Brahman, Lester James V. Miranda, Alisa Liu, Nouha Dziri, Shane Lyu, Yuling Gu, <strong>Saumya Malik</strong>, Victoria Graf, Jena D. Hwang, Jiangjiang Yang, Ronan Le Bras, Oyvind Tafjord, Chris Wilhelm, Luca Soldaini, Noah A. Smith, Yizhong Wang, Pradeep Dasigi, Hannaneh Hajishirzi
                         </p>
                         <p class="pub-venue">
-                            <em>Conference Name (Acronym)</em>, 2023
+                            <em>COLM</em>, 2025
                         </p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Project Page</a>
+                            <a href="https://arxiv.org/pdf/2411.15124" class="pub-link">PDF</a>
+                            <a href="https://arxiv.org/abs/2411.15124" class="pub-link">arXiv</a>
                         </div>
                     </div>
                 </div>
+
+                <div class="publication">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2501.00656">
+                            <img src="publications/olmo2.png" alt="OLMo 2">
+                        </a>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">2 OLMo 2 Furious</h3>
+                        <p class="pub-authors">
+                            Team Olmo (incl. <strong>Saumya Malik</strong>)
+                        </p>
+                        <p class="pub-venue">
+                            <em>COLM</em>, 2025
+                        </p>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/pdf/2501.00656" class="pub-link">PDF</a>
+                            <a href="https://arxiv.org/abs/2501.00656" class="pub-link">arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="publication">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2402.09739">
+                            <img src="publications/qurating.png" alt="QuRating">
+                        </a>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">QuRating: Selecting High-Quality Data for Training Language Models</h3>
+                        <p class="pub-authors">
+                            Alexander Wettig, Aatmik Gupta, <strong>Saumya Malik</strong>, Danqi Chen
+                        </p>
+                        <p class="pub-venue">
+                            <em>ICML</em>, 2024 (Spotlight Paper - top 1.98% of submissions)
+                        </p>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/pdf/2402.09739" class="pub-link">PDF</a>
+                            <a href="https://arxiv.org/abs/2402.09739" class="pub-link">arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-image">
+                        <a href="https://arxiv.org/pdf/2409.19012">
+                            <img src="publications/lsat.png" alt="Lost in the Logic">
+                        </a>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Lost in the Logic: An Evaluation of Large Language Models' Reasoning Capabilities on LSAT Logic Games</h3>
+                        <p class="pub-authors">
+                            <strong>Saumya Malik</strong>
+                        </p>
+                        <p class="pub-venue">
+                            <em>Preprint</em>, 2024
+                        </p>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/pdf/2409.19012" class="pub-link">PDF</a>
+                            <a href="https://arxiv.org/abs/2409.19012" class="pub-link">arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
 
             </div>
         </section>
